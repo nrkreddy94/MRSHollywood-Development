@@ -1,6 +1,6 @@
 # Movie Recommendation System
 
-## Movie Recommendation System with Cosine Similiarty
+### Movie Recommendation System with Cosine Similiarty
 
 ### Recommendation System works with 3 techniques
 1. Content Based  Filtering - Works with type of movie like action, adventure, comedy etc (genres) irrespective of user rating (behaviour)
@@ -13,7 +13,7 @@
 Cosine similarity is a measure of similarity between two non-zero vectors of an inner product space. It is defined to equal the cosine of the angle between them, which is also the same as the inner product of the same vectors normalized to both have length 1.
 
 
-## Life cycle of Data Science Project
+### Life cycle of Data Science Project
 
 1. Data Gathering - ( example: collect data from Kaggel )
 2. Data Analysis - ( Analyze the data and find the relationship among the tables )
@@ -27,7 +27,7 @@ Cosine similarity is a measure of similarity between two non-zero vectors of an 
 10. Deploy the webapplication and model in the could servers
 
 
-#### Build Movie Recommendation System with  below data sets
+### Build Movie Recommendation System with  below data sets
 
 We have built recommendation system for Hollywood movies from 2013 to 2018. 
 
@@ -62,4 +62,11 @@ Implemented Google Dailogflow Live Chat which helps to find and suggest best mov
 [MRSHollywood_LiveChat](https://github.com/nrkreddy94/MRSHollywood_LiveChat)
 
 
+### Output of this project
+1. collaborativeFiltering_model.pkl - cosine similarity model
+2. collaborativeFiltering_NLP_model.pkl - Created NLP with MulinomialNB model
+3. collaborativeFiltering_NLP_vectorizer.pkl - used to get movie index then pass to cosine similarity model to fetch all similar movies
+4. movie_user_rating_pivottable.csv - available all movies index and user ratings, used in cosine similarity model
+5. movie_user_rating_index.csv - available all movies index with names
+6. move_review_final_dataset.csv - complete movie details available here like movie name, ratings, avg_ratings, released year, genres etc.
 
