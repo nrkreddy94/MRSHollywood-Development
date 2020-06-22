@@ -1,6 +1,6 @@
 # Movie Recommendation System
 
-### Movie Recommendation System with Cosine Similiarty
+### Movie Recommendation System with Cosine Similarty
 
 ### Recommendation System works with 3 techniques
 1. Content Based  Filtering - Works with type of movie like action, adventure, comedy etc (genres) irrespective of user rating (behaviour)
@@ -54,7 +54,7 @@ Implemented Android app for this movie recommendation system ie MRSHollywood_And
 
 Implemented Google Dailogflow Live Chat which helps to find and suggest best movies to users ie MRSHollywood_LiveChat.
 
-### Usefull Links
+### Useful Links
 [MRSHollywood_Deployment](https://github.com/nrkreddy94/MRSHollywood_Deployment)
 
 [MRSHollywood_Android](https://github.com/nrkreddy94/MRSHollywood_Android )
